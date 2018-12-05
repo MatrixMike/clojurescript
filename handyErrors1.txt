@@ -1,0 +1,1 @@
+Exception in thread "main" clojure.lang.ExceptionInfo: Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported. Got (:gen-class) instead. at line 1 /home/mikeh/clojurescript/src/my_app/core.cljs {:file #object[java.io.File 0x9d7ccfe "/home/mikeh/clojurescript/src/my_app/core.cljs"], :line 1, :column 1, :tag :cljs/analysis-error}
