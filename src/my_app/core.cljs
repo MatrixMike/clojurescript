@@ -12,12 +12,16 @@
   (.arc ctx x y radius 0 (* 2 Math/PI))
   (.fill ctx))
   
-(defn showProp [prop]
-	( println  (str prop ":" (System/getProperty prop))))
+;;(defn showProp [prop]
+;;	( println  (str prop ":" (System/getProperty prop))))
   
 ;; (System/getProperty prop1) 
    
 (comment  .setColor Color/GREEN )
 (draw-shape 150 150 100 "blue")
 ;;(comment 'println showProp propf' )
-(draw-shape 200 200 100 "red")
+(draw-shape 200 200 100 "black")
+(draw-shape 250 250 100 "green")
+
+(doseq [j (range 90 250 60)] (draw-shape j j  60 "red"))
+(js/alert "I am an evil side-effect")
