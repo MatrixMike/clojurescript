@@ -24,4 +24,4 @@
 (draw-shape 250 250 100 "green")
 
 (doseq [j (range 90 250 60)] (draw-shape j j  60 "red"))
-(js/alert "I am an evil side-effect")
+(js/alert "I am an evil side-effectand some long text to reveal other message")
